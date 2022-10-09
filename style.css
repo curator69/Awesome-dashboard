@@ -118,10 +118,13 @@ select {
   height: 3.5rem;
   margin-bottom: 5rem;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .logo:hover {
-  transform: skewX(10);
+  transform: rotate(8deg);
+  filter: hue-rotate(140deg) contrast(100%);
+  box-shadow: rgb(255 215 77) -1px -1px 20px, rgb(124 127 255) 1px 1px 20px;
 }
 
 .dashboard {
@@ -132,6 +135,10 @@ select {
   padding: 10px 15px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.dashboard:hover {
+  background-color: #31285c;
 }
 
 .dashboard img {
