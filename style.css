@@ -181,3 +181,15 @@ select {
 .nav-options li img {
   margin-right: 10px;
 }
+
+/* Main */
+
+.main {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin-top: 1rem;
+
+  /* background-color: red; */
+}
